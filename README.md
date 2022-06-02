@@ -1,4 +1,4 @@
-# Uladzimir Haleta
+# Author: Uladzimir Haleta
 ## Files
 * README.md
-* index.html
+* Index.html
