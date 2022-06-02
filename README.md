@@ -1,2 +1,3 @@
-# Uladzimir Haleta
+# Author: Uladzimir Haleta
+## Files
 * README.md
