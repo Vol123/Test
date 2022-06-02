@@ -1,12 +1,15 @@
 .fon {
     background-color: aquamarine;
     color: navy;
+    text-align: center;
+}
+
+.textForVideo {
     font-size:60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 600;
     font-variant: initial;
     font-style: italic;
-    text-align: center;
 }
 
 .img {
