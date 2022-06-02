@@ -4,15 +4,28 @@ class Calc {
         this.value = value;
     }
 
+    func;
     Sum(value) {
-        return this.value + value;
+        this.func = this.Sum;
+        return this.value += value;
     }     
 
     Min(value) {
-        return this.value - value;
+        this.func = this.Min;
+        return this.value -= value;
+    }
+
+    Print(result) {
+        console.log(result);
+    }
+
+    PrintInfo() {
+        console.log("Class: Calc");
+        console.log(`Use Function: ${this.func.name}`);
+        console.log(`Current Value: ${this.value}`);
     }
 }
 
 let calc = new Calc(123);
-console.log(`123 + 23 = ${calc.Sum(23)}`);
-console.log(`123 - 23 = ${calc.Min(23)}`);
+calc.Sum(23);
+calc.PrintInfo();
