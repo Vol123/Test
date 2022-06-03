@@ -1,0 +1,5 @@
+1. Add button on Git Video
+2. Change main.js
+2.1 Add Multiplication function
+2.2 Add Division function
+3. Add new styles in style.css
