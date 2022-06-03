@@ -6,3 +6,5 @@
 * main.js
 * Cats.jpg
 * Changes.txt
+* Cat.jpg
+* Video.mp4
