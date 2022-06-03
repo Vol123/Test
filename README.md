@@ -5,3 +5,4 @@
 * style.css
 * main.js
 * Cats.jpg
+* Changes.txt
