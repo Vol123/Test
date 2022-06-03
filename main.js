@@ -15,6 +15,16 @@ class Calc {
         return this.value -= value;
     }
 
+    Multiplication(value) {
+        this.func = this.Multiplication;
+        return this.value *= value;
+    }
+
+    Division(value) {
+        this.func = this.Multiplication;
+        return this.value /= value;
+    }
+
     Print(result) {
         console.log(result);
     }
