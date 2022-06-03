@@ -14,3 +14,21 @@
     height: 400px;
     border: 5px rgb(54, 200, 21) solid;
 }
+
+.linkOnGitVideo {
+    text-decoration: none;
+}
+
+.fonForLinkForGitVideo {
+    background-color: chocolate; 
+    padding: 15px;  
+    width: 250px; 
+    border-radius: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#cat {
+    width: 550px;
+}
