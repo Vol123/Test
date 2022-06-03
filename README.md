@@ -1,6 +1,8 @@
 # Author: Uladzimir Haleta
 ## Files
 * README.md
-* style.css
 * index.html
-* Video.mp4
+* style.css
+* main.js
+* Cats.jpg
+* Changes.txt

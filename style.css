@@ -9,11 +9,19 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 600;
     font-variant: initial;
+    background-color: aliceblue;
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
 
 .img {
     border: 8px rgb(139, 31, 202) solid;
+    width: 500px;
+    height: 500px;
 }
 
 .advert {
@@ -26,10 +34,30 @@
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 1200px;
     border-radius: 30px;
 }
 
 .linkGitHub {
     text-decoration: none;
+    width: 500px;
+    height: 400px;
+}
+
+.linkOnGitVideo {
+    text-decoration: none;
+}
+
+.fonForLinkForGitVideo {
+    background-color: chocolate; 
+    padding: 15px;  
+    width: 250px; 
+    border-radius: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#cat {
+    width: 600px;
 }
