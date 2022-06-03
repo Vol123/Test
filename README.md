@@ -8,3 +8,6 @@
 * Changes.txt
 * Cat.jpg
 * Video.mp4
+* War.jpg
+* War2.jpg
+* War3.jpeg
