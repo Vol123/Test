@@ -56,7 +56,3 @@ class FindNumber {
         return result;
     }
 }
-
-let calc = new Calc(123);
-calc.Sum(23);
-calc.PrintInfo();
