@@ -41,18 +41,56 @@ class Calc {
 }
 
 class FindNumber {
+    resultMax = undefined;
+    resultMin = undefined;
+
+    constructor(resultMax, resultMin) {
+        this.resultMax = resultMax;
+        this.resultMin = resultMin;
+    }
+
     FindMaxNumber(arr = []) {
         let result = arr[0];
-        for (let value in arr)
-            if (value > result)
-                result = value;
+        for (let value in arr) {
+            try {
+                if (parseFloat(arr[value]) > parseFloat(result))
+                    result = parseFloat(arr[value]);
+            }
+            catch {
+                return this.resultMax;
+            }
+        }
+        this.resultMax = result;
         return result;
     }
     FindMinNumber(arr = []) {
         let result = arr[0];
-        for (let value in arr)
-            if (value < result)
-                result = value;
+        for (let value in arr) {
+            try {
+                if (parseFloat(arr[value]) < parseFloat(result))
+                    result = parseFloat(arr[value]);
+            }
+            catch {
+                return this.resultMax;
+            }
+        }
+        this.resultMax = result;
         return result;
+    }
+
+    PrintMaxNumber() {
+        alert(`${this.resultMax}`);
+    }
+
+    PrintMinNumber() {
+        alert(`${this.resultMin}`);
+    }
+
+    PrintMaxNumberConsole() {
+        console.log(`${this.resultMax}`);
+    }
+
+    PrintMinNumberConsole() {
+        console.log(`${this.resultMin}`);
     }
 }
