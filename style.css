@@ -1,0 +1,106 @@
+.fon {
+    background-color: aquamarine;
+    color: navy;
+    text-align: center;
+}
+
+.textForVideo {
+    font-size:60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-variant: initial;
+    background-color: aliceblue;
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.fonForText {
+    margin-bottom: 30px;
+}
+
+.img {
+    border: 8px rgb(139, 31, 202) solid;
+    width: 500px;
+    height: 500px;
+}
+
+.advert {
+    padding: 15px;
+    color:crimson;
+    background: rgb(81, 134, 187);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    border-radius: 30px;
+}
+
+.linkGitHub {
+    text-decoration: none;
+    width: 500px;
+    height: 400px;
+}
+
+.linkOnGitVideo {
+    text-decoration: none;
+}
+
+.fonForLinkForGitVideo {
+    background-color: chocolate; 
+    padding: 15px;  
+    width: 250px; 
+    border-radius: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#cat {
+    width: 600px;
+}
+
+.linkToUkrWar {
+   text-align: center;
+   color: red;
+   font-size: 25px;
+   text-decoration: none;
+}
+
+.posLinkToUkrWar {
+    margin-top: 100px;
+    background-color: rgb(102, 188, 188);
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.imgWorInUkr { 
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.imgWorInUkrFirst { 
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.link {
+    color:blue;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
