@@ -56,3 +56,11 @@ class FindNumber {
         return result;
     }
 }
+
+class PrintTextOnHTMLFile {
+    constructor(text='') {
+        alert(text);
+    }
+}
+
+let value = PrintTextOnHTMLFile('Have a good viewing gentlemen readers!');
