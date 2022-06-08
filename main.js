@@ -94,3 +94,33 @@ class FindNumber {
         console.log(`${this.resultMin}`);
     }
 }
+
+class PrintTextOnHTMLFile {
+    constructor(text='') {
+        alert(text);
+    }
+}
+
+class AllTimeSum {
+    result = undefined;
+    constructor(result) {
+        if (typeof result === typeof Number || typeof result === typeof BigInt)
+            this.result = result;
+        else
+            this.result = parseFloat(result);
+    }
+    Add(value) {
+        if (typeof value === typeof Number || typeof value === typeof BigInt)
+            this.result += value;
+        else 
+            this.result = parseFloat(value);
+        return this.result;
+    }
+}
+
+let sum = new AllTimeSum('123.23');
+sum.Add(23.2323);
+sum.Add('1dbdhbhb123123');
+sum.Add(232323233.23);
+let value = new PrintTextOnHTMLFile('Have a good viewing gentlemen readers!');
+value = new PrintTextOnHTMLFile(`All Sum this project is: ${sum.result}`);
